@@ -1,0 +1,206 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(http://weloveiconfonts.com/api/?family=fontawesome|typicons);
+/*@import url(masestilos.css) agregar mas estilos*/
+[class*="fontawesome-"]:before {
+  font-family: 'FontAwesome', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 58px;
+    background: #f8f8f8;
+    position: fixed; /*que quede arriba*/
+    top: 0;
+    left: 0;
+    z-index: 100; 
+    border-top-style: solid;
+    border-top-width: 6px;
+    border-top-color: #ED8E1C;
+}
+
+#logo1{
+    height: 50px;
+    padding: 0px;
+    margin-top: px;
+}
+
+.contenedor {
+    width: 100%;
+    margin: auto;
+}
+
+
+footer .contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 10px;
+    padding-top: 30px;
+    margin-top: -21px;
+    background-color: #ffffff;
+    position:relative;
+    bottom:0;
+    justify-content:center;
+}
+
+.logoFooter{
+    position: absolute;
+    display: block;
+    width: 100px;
+    height: 32px;
+    background-image: url(../images/letras_journey.png);
+    margin-top: -30px;
+}
+
+.copy {
+    font-size: 15px;
+}
+
+.sociales {
+    width: 100%;
+    text-align: center;
+    font-size: 28px;
+    
+}
+
+.sociales a {
+    color: #333;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+
+    .contenedor {
+        width: 100%;
+    }
+
+#menu {
+    position: static;
+    width: auto;
+    height: 52px;
+    transform: translateX(0%);
+    float: right;
+    display: flex;
+    background-color:  #f8f8f8;
+}
+#menu a {
+    display: block;
+    color: #000;
+    height: 52px;
+    text-decoration: none;
+    padding: 15px;
+}
+
+#menu a:hover {
+   background: #E6E6E6 ;
+}
+
+.search{
+    height: 90px;
+    width: 100%;
+    background: #4D5152;
+    top: 900px;
+    position: fixed; /*que quede arriba*/
+    top: 0;
+    left: 0;
+    z-index: 10; 
+}
+
+
+/*********/
+/******/
+#center{
+    display: block;
+    text-align: center;
+       margin-top: 100px;
+}
+
+#logoJourney{
+    height: 60px;
+    margin: 10px;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto
+}
+#letrasJourney1{
+    height: 60px;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body{
+    background-color: whitesmoke
+}
+#bgRegister{
+    background-color:white;
+    width: 500px;
+    height: 700px;
+    position: absolute;
+    top:280;
+    bottom:10;
+    left: 0;
+    right: 0;
+    margin:auto;
+    padding: 3px 9px;
+    margin-top: -40px;
+}
+#titleRegister{
+    font-size: 25px;
+    text-align: center;
+    color:darkslategrey;
+    /*position: absolute;
+    top: 0;
+    bottom: 530;
+    left: 0;
+    right: 0;
+    margin:auto;*/  
+}
+
+
+.infoBottom{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+#footer {
+    width: 100%;
+    margin-top:800px;
+
+}
+#letrasJourney2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 40px;
+}
+#aboutUs{
+    font-size: 30px;
+    text-align: center;
+}
+#mision{
+    text-align: center;
+}
+#vision{
+    text-align: center;
+}
+#objetivo{
+    text-align: center;
+}
+
+#comentButton{
+    background-color: #F8A431;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

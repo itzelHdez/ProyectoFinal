@@ -1,0 +1,102 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+		<link href="css/styleAddNewEvent.css" rel="stylesheet" type="text/css">
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/scriptNewEvent.js"></script>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/css/materialize.min.css">
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>           
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js"></script>
+	</head>
+    
+<header>
+    <div class="contenedor">
+        <input type="image" id="logo1" src="images/Journey_1.png"/>
+        
+        <div id="menu">
+            <a href="trailsHome.html">Trails</a>
+            <a href="journal.html">Journal</a>
+            <a href="travelers.html">Travelers</a>
+            <a href="addNewEvent.html" class="selected">Add Event</a>
+            <button id="logout">Logout</button>
+        </div>
+    </div>
+</header>
+    
+    <body>
+        <div class="search"> Buscador </div> <br>
+        <h1 id="titleRegister">Create a New Event</h1>
+        <div id="bgRegister">
+            
+            <div class="row">
+            <form class="col s12">
+                <div class="input-field col s12">
+                  <input id="eventName" type="text" class="validate">
+                  <label for="eventName">Event Name</label>
+                </div>
+                <div class="input-field col s12">
+                  <input id="eventCategory" type="text" class="validate">
+                  <label for="eventCategory">Event Category</label>
+                </div>
+              <div class="row">
+                <div class="input-field col s6">
+                  <input id="date" type="text" class="validate">
+                  <label for="date">Date  Example: 26/06/2017</label>
+                </div>
+                <div class="input-field col s6">
+                  <input id="hour" type="text" class="validate">
+                  <label for="hour">Hour Example: 19:00</label>
+                </div>
+                  <div class="input-field col s6">
+                  <input id="maxUsers" type="text" class="validate">
+                  <label for="maxUsers">Max Users</label>
+                </div>
+                <div class="input-field col s6">
+                  <input id="minUsers" type="text" class="validate">
+                  <label for="minUsers">Min Users</label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="input-field col s12">
+                  <input id="equipment" type="text" class="validate">
+                  <label for="equipment">Equipment</label>
+                </div>
+                <div class="input-field col s12">
+                  <input id="description" type="text" class="validate">
+                  <label for="description">Description</label>
+                </div>   
+              </div>
+              <div class="row">
+                <div class="input-field col s6">
+                  <input id="latitude" type="text" class="validate">
+                  <label for="latitude">Location latitude</label>
+                </div>
+                <div class="input-field col s6">
+                  <input id="longitude" type="text" class="validate">
+                  <label for="longitude">Location longitude</label>
+                </div>
+                  
+                </div>
+            </form>
+                   <button id="registerButton1" class="btn">REGISTER</button>
+          </div>
+        </div>
+        <div id="footer">
+        </div>
+	</body>
+    
+        
+    <footer>
+    <div class="contenedor">
+        <div class="logoFooter"></div>
+        <div class="copy">Journey App &reg; All Rights Reserved</div><br>
+        <div class="sociales">
+            <a class="fontawesome-facebook-sign" href=https://www.facebook.com></a>
+            <a class="fontawesome-twitter" href="https://www.twitter.com"></a>
+            <a class="fontawesome-camera-retro" href="https://www.instagram.com"></a>
+        </div>
+        <a href="aboutUs.html">About Us</a>
+    </div>
+</footer>
+</html>

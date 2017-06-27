@@ -1,0 +1,95 @@
+body {
+  background: #222 center no-repeat;
+	/*background-size: cover;
+    width: 100%;
+    height: 100%;*/
+	color: white;
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+}
+
+#bg {
+	background: url("../images/Home_background2.jpg");
+    background-repeat: no-repeat;
+    background-size: 50%;
+    position: center;
+}
+
+#bg {
+  background-position: center top;
+}
+
+#text {
+  /* Put this on top of the blurred layer */
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-size: 1080px auto;
+  background-position: center top;
+  /*padding: 70px 90px 120px 90px;*/
+  /*z-index: 100;*/
+  /*padding: 20px;*/
+  /*background: rgb(34,34,34); 
+  background: rgba(34,34,34,0.60);*/
+}
+
+#center{
+    width: 300px;
+    height: 500px;
+    background-color: red;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background: rgb(34,34,34); /* for IE */
+    background: rgba(255,255,255,0.60);
+    
+}
+#loginButton{
+    background-color: #F8A431;
+    width: 200px;
+}
+#signUpButton{
+    background: none;/*this for transparent button*/
+    border: 1px solid #F8A431;/* this is for button border*/
+    width: 200px;
+}
+#logoJourney{
+    height: 50px;
+    margin: 10px;
+}
+#letrasJourney{
+    height: 50px;
+}
+.text{
+    font-size: 10px;
+}
+input[type=checkbox]
+{
+  -webkit-transform: scale(2); /* Safari and Chrome */
+  padding: 10px;
+}
+#rememberMeText{
+    color:white;
+    font-size: 8px
+}
+#username{
+    width: 200px;
+    background: white;
+    border-radius: 8px;
+    color: gray;
+    font-variant-position: center;
+}
+#password{
+    width: 200px;
+    background: white;
+    border-radius: 8px;
+    color:gray
+}
+::-webkit-input-placeholder {
+   text-align: center;
+    font-size: 10px;
+}
